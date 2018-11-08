@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #aaa;
+	width: 70%;
+	margin: 20px auto;
+}
+.flex{
+	display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 50px auto;
+}
+.share_btn{
+	width: 24%;
+	margin: 2px;
+	border: 1px solid #fff;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	transition: .4s;
+	.fab {
+		line-height:50px;
+	}
+	&:hover{
+		-webkit-transform: translateY(-5px);
+		-ms-transform: translateY(-5px);
+		transform: translateY(-5px);
+		border: 0;
+		color: #fff;
+  }
+	&.tw:hover {background: #22b8ff;}
+	&.fb:hover {background: #6680d8;}
+	&.ht:hover {background: #49a8fb;}
+  &.gh:hover {background: #24292e;}
+  &.yt:hover {background: #ff0000;}
+  &.ds:hover {background: #7289da;}
+} 

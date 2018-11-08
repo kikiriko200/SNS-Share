@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #aaa;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: auto;
+  margin: 50px auto;
+}
+
+.share_btn {
+  width: 24%;
+  margin: 2px;
+  border: 1px solid #fff;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.share_btn .fab {
+  line-height: 50px;
+}
+
+.share_btn:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  border: 0;
+  color: #fff;
+}
+
+.share_btn.tw:hover {
+  background: #22b8ff;
+}
+
+.share_btn.fb:hover {
+  background: #6680d8;
+}
+
+.share_btn.ht:hover {
+  background: #49a8fb;
+}
+
+.share_btn.gh:hover {
+  background: #24292e;
+}
+
+.share_btn.yt:hover {
+  background: #ff0000;
+}
+
+.share_btn.ds:hover {
+  background: #7289da;
+}
+/*# sourceMappingURL=style.css.map */
